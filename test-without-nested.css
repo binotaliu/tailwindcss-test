@@ -1,0 +1,22 @@
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .content .content-list ul,
+  .content ul:not(:first-of-type) {
+    @apply list-none m-0 mb-[2.5em] p-0;
+  }
+
+.content .content-list ul li,
+  .content ul:not(:first-of-type) li {
+    @apply relative block pl-5 mb-4 text-[.89em] text-gray-700 leading-[1.714em];
+  }
+
+.content .content-list ul li a,
+  .content ul:not(:first-of-type) li a {
+    @apply no-underline}
+
+.content .content-list ul li code,
+  .content ul:not(:first-of-type) li code {
+    @apply text-[.875em]}
+}
+
