@@ -1,0 +1,29 @@
+{
+  "name": "@binotaliu/tailwindcss-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binotaliu/tailwindcss-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binotaliu/tailwindcss-test/issues"
+  },
+  "homepage": "https://github.com/binotaliu/tailwindcss-test#readme",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "laravel-mix": "^6.0.13",
+    "postcss": "^8.2.9",
+    "postcss-nested": "^5.0.5"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.4"
+  }
+}

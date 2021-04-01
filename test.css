@@ -1,0 +1,23 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content {
+    ul:not(:first-of-type),
+    .content-list ul {
+      @apply list-none m-0 mb-[2.5em] p-0;
+
+        li {
+          @apply relative block pl-5 mb-4 text-[.89em] text-gray-700 leading-[1.714em];
+
+          a {
+            @apply no-underline;
+          }
+
+          code {
+            @apply text-[.875em];
+          }
+      }
+    }
+  }
+}
